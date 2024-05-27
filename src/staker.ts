@@ -1,7 +1,7 @@
-import { BigintIsh, Token, validateAndParseAddress } from '@uniswap/sdk-core'
+import { BigintIsh, Token, validateAndParseAddress } from 'depin-dex-sdk-core'
 import { MethodParameters, toHex } from './utils/calldata'
 import { defaultAbiCoder, Interface } from '@ethersproject/abi'
-import IUniswapV3Staker from '@uniswap/v3-staker/artifacts/contracts/UniswapV3Staker.sol/UniswapV3Staker.json'
+import IUniswapV3Staker from 'depin-dex-v3-staker/artifacts/contracts/DepinDexStaker.sol/DepinDexStaker.json'
 import { Pool } from './entities'
 import { Multicall } from './multicall'
 

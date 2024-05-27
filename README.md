@@ -1,7 +1,17 @@
-# @uniswap/v3-sdk - Now at `Uniswap/sdks`
+# depin dex v3-sdk
 
-All versions after 3.11.0 of this SDK can be found in the [SDK monorepo](https://github.com/Uniswap/sdks/tree/main/sdks/v3-sdk)! Please file all future issues, PR’s, and discussions there.
+# Local Development
 
-### Old Issues and PR’s
+The following assumes the use of `node@>=10`.
 
-If you have an issue or open PR that is still active on this SDK in this repository, please recreate it in the new repository. Some existing issues and PR’s may be automatically migrated by the Uniswap Labs team.
+## Install Dependencies
+
+`npm install`
+
+## build 
+
+`npm run build`
+
+## Run Tests
+
+`npm run test`
